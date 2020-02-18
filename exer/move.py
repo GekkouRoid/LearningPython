@@ -12,13 +12,13 @@ draw_color = '006187b4'
 wb = xl.load_workbook('move.xlsx')
 sheet = wb['Sheet1']
 
-move_ability = 8
+move_ability = 10
 
 x_init = 1
 y_init = 1
 
 unit_x = 13
-unit_y = 14
+unit_y = 24
 
 x_move_range = [0]
 y_move_range = [0]
